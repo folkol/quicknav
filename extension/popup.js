@@ -116,3 +116,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+
+
+// add numbers to links
+console.log('wut');
+
+document.addEventListener('DOMContentLoaded', function() {
+  console.log('doh');
+  document.getElementsByTagName('a').forEach(function (e) {
+    console.log(e);
+  });
+});
